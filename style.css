@@ -1,6 +1,6 @@
 #imgdiv{
     text-align: center;
-    margin-top:  380px;;
+    margin-top: 0px;;
 
 }
 #contianer{
@@ -10,15 +10,20 @@
 
 
 }
+
 #searchbox{
     width: 480px;
     line-height: 42px;
     border: none;
     outline: none;
-
-
-
+    
 }
+#searchbox:hover{
+    background-color: gainsboro;
+}
+
+
+
 .input{
     margin-top: 25px;
 }
@@ -36,5 +41,22 @@
     border: solid 2px gray;
     margin-left: 670px;
     margin-right: 670px;
+    
+
+}
+#imgdiv:hover{
+    background-color: gainsboro;
+}
+#gicon{
+    margin-top: 220px;
+    
+
+
+}
+#rightbox{
+    margin-top: 377px;
+    background-color: rgba(202, 196, 196, 0.671);
+
+
 
 }
