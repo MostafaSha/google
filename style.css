@@ -1,0 +1,40 @@
+#imgdiv{
+    text-align: center;
+    margin-top:  380px;;
+
+}
+#contianer{
+    text-align: center;
+
+
+
+
+}
+#searchbox{
+    width: 480px;
+    line-height: 42px;
+    border: none;
+    outline: none;
+
+
+
+}
+.input{
+    margin-top: 25px;
+}
+#micimg{
+
+    margin-bottom: 3px;
+}
+#zarimg{
+    margin-bottom: 5px;
+
+
+}
+#imgdiv{
+    border-radius: 50px;
+    border: solid 2px gray;
+    margin-left: 670px;
+    margin-right: 670px;
+
+}
