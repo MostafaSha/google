@@ -3,6 +3,30 @@
     margin-top: 0px;;
 
 }
+
+#header{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+#header a{
+    color:black;
+    text-decoration: none;
+    
+}
+#a1:hover{
+    background-color: rgb(214, 209, 209);
+    border-radius: 50px;
+   
+}
+#a2:hover{
+
+    text-decoration: underline;
+}
+#a3:hover{
+
+    text-decoration: underline;}
 #contianer{
     text-align: center;
 
@@ -20,12 +44,24 @@
 }
 #searchbox:hover{
     background-color: gainsboro;
+    
 }
 
 
 
 .input{
     margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 7px;
+    
+    
+}
+.input:hover{
+    border: 0.2px solid gray ;
+
+
 }
 #micimg{
 
@@ -39,13 +75,28 @@
 #imgdiv{
     border-radius: 50px;
     border: solid 2px gray;
-    margin-left: 670px;
-    margin-right: 670px;
+    width: 580px;
+    margin: auto;
+    
     
 
 }
+
+@media screen and (max-width: 600px ),(min-width: 600px){
+
+ #imgdiv{
+    float: none;
+    width: 580px;
+    
+
+
+ }   
+}
+
+
 #imgdiv:hover{
     background-color: gainsboro;
+    border: none;
 }
 #gicon{
     margin-top: 220px;
@@ -54,17 +105,36 @@
 
 }
 #flex{
-    margin-top: 377px;
+    margin-top: 322px;
     background-color: rgba(202, 196, 196, 0.671);
     padding-left: 20px;
+    width: 1919px;
+
+    
 
 
 
 }
-#flex:hover{
-   text-decoration: underline;
-}
+
 #num5{
 
-    margin-left: 1295px;
+    margin-left: 1320px;
+}
+#footer{
+    display: flex;
+}
+@media screen and (max-width: 600px){
+    #footer{
+        float: none;
+        width: 100%;
+    }
+}
+#flex a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+#flex a :hover{
+    text-decoration: underline;
+
 }
